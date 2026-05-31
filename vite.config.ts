@@ -5,11 +5,11 @@ import { tanstackStart } from "@tanstack/react-start/plugin/vite";
 
 export default defineConfig({
   plugins: [
-    react(),
-    tsconfigPaths(),
     tanstackStart({
       server: { entry: "server" },
     }),
+    react(),
+    tsconfigPaths(),
   ],
   server: {
     middlewareMode: false,
