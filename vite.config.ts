@@ -15,4 +15,7 @@ export default defineConfig({
     middlewareMode: false,
     preTransformRequests: false,
   },
+  preview: {
+    allowedHosts: ["real-estate-j8yw.onrender.com"],
+  },
 });
