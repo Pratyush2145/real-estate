@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "start": "node dist/server/entry.mjs"
+    "start": "node dist/server/server.js"
   },
   "dependencies": {
     "@fontsource/cormorant-garamond": "^5.2.11",
